@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <!-- header -->
+    <header>
+      <div class="container">
+        <h1 class="logo">Blog web app</h1>
+        <strong>
+          <nav class="menu">
+            <li><a href="{{ url_for('index') }}">Home</a></li>
+            <li><a href="{{ url_for('about') }}">About</a></li>
+          </nav>
+        </strong>
+      </div>
+    </header>
+    <!-- /header -->
+    <div class="container">
+      {%block content%}
+      {%endblock%}
+    </div>
+  </body>
+</html>

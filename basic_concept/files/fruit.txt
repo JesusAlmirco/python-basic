@@ -1,0 +1,3 @@
+Writing new text with python
+this is new for me
+Python is fantastic
